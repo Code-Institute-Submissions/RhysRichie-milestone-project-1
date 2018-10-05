@@ -1,0 +1,82 @@
+.banner-image {
+    
+    text-align: center;
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    background-image: url(/assets/images/782199_70s-retro-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 208px contain;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.monkees-banner-logo {
+    background-image: url(/assets/images/monkeeslogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    margin:0;
+}
+
+.navbar-bg {
+    margin:0;
+    padding:0;
+}
+.navbar {
+    background-color: rgba(0,0,0, .8);
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    border-top: #656565 1px solid;
+    padding: 0;
+}
+
+
+
+.social-links {
+    word-spacing: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #878787;
+    font-size: 22px;
+    
+    transition: color .2s ease-in-out;
+}
+
+
+.footer-writing {
+    display: inline-block;
+    color: #878787;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+
+.social-links a:hover {
+    color: #CE981F;
+}
+
+@media (min-width: 576px) {
+    .monkees-banner-logo {
+        background-image: url(/assets/images/the-monkees-logo.png);
+    }
+}
