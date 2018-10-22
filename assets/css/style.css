@@ -1,33 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Niramit:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
 
-html {
-    min-height: 100%;
-}
 
-body {
+/*----------------------main page----------------------*/
+
+html,body {
     background-color: #343A40;
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     padding: 0;
+    
+    font-family: "Niramit", sans-serif;
+    color: #EDEDED;
 }
 
-.navbar-bg {
-    margin:0;
-    padding:0;
-}
-.navbar {
-    background-color: rgba(0,0,0, .8);
+section {
     width: 100%;
     margin: 0;
     padding: 0;
-    box-shadow: 3px 3px 5px;
 }
+
+.row {
+    margin: 0 0 0 0;
+}
+
+/*----------------------Navigation----------------------*/
+
+.navbar-bg {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: #000000 3px 3px 5px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    transition: all .25s ease-in-out;
+}
+
+.nav-item:hover {
+    background-color: #2A3036;
+}
+
+/*----------------------Banner----------------------*/
 
 .banner-image {
     text-align: center;
     width: 100%;
     min-height: 200px;
-    background-color: black;
-    background-image: url(/assets/images/782199_70s-retro-wallpaper.jpg);
+    background-image: url(/assets/images/retro-wallpaper-1.jpg);
     background-repeat: no-repeat;
     background-size: 208px contain;
     background-position: center;
@@ -46,73 +73,8 @@ body {
     width: 100%;
     margin: 0 0 0 0;
 }
-.band-box {
-    width: 100%;
-    height: 200px;
-    border-bottom: #343A40 1px solid;
-}
 
-.about-box {
-    width: 100%;
-    background-color: #444341;
-}
-
-.about-box h1 {
-    font-family: "Lobster", sans-serif;
-    color: #EDEDED;
-    text-align: center;
-    margin: 5px 0 0 0;
-}
-
-.about-box p {
-    font-family:"Niramit", sans-serif;
-    text-align: justify;
-    color: #EDEDED;
-}
-
-.dj {
-    background-image: url(/assets/images/dj.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    display: block;
-    width: auto;
-    min-height: 200px;
-    margin: 0;
-}
-
-.md {
-    background-image: url(/assets/images/md.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    width: auto;
-    min-height: 200px;
-    margin: 0;
-} 
-
-.mn {
-    background-image: url(/assets/images/mn.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    width: auto;
-    min-height: 200px;
-    margin: 0;
-}
-
-.pt {
-    background-image: url(/assets/images/pt.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    width: auto;
-    min-height: 200px;
-    margin: 0;
-}
+/*----------------------Home-Page----------------------*/
 
 .naur {
     width: 100%;
@@ -125,12 +87,18 @@ body {
 .xmas-album-box {
     background-color: #EDEDED;
     width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
 }
+
 .xmas-album {
     background-image: url(/assets/images/monkeesxmas.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    border-left: #343A40 10px solid;
+    border-right: #343A40 10px solid;
     display: block;
     min-height: 300px;
     width: 100%;
@@ -141,8 +109,8 @@ body {
     font-family: "Niramit", sans-serif;
     color: #444341;
     padding: 10px 30px 10px 30px;
-    border-left: #343A40 10px solid;
     border-right: #343A40 10px solid;
+    border-left: #343A40 10px solid;
 }
 
 .album-list {
@@ -155,16 +123,370 @@ body {
     text-align: center;
 }
 
+/*----------------------The Band Page----------------------*/
+
+.band-heading-box {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+.band-heading {
+    text-align: center;
+    color: #EDEDED;
+    font-family: "Lobster", sans-serif;
+    font-size: 42px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+.band-box {
+    background-color: #EDEDED;
+    width: 100%;
+
+    border: #343A40 10px solid;
+
+}
+
+.dj-picture {
+    background-image: url(/assets/images/dj.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: #343A40 5px solid;
+    border-radius: 95px;
+    height: 190px;
+    width: 190px;
+
+    margin: 15px auto 10px auto;
+}
+
+.md-picture {
+    background-image: url(/assets/images/md.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: #EDEDED 5px solid;
+    border-radius: 95px;
+    height: 190px;
+    width: 190px;
+
+    margin: 10px auto 10px auto;
+}
+
+.mn-picture {
+    background-image: url(/assets/images/mn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: #343A40 5px solid;
+    border-radius: 95px;
+    height: 190px;
+    width: 190px;
+
+    margin: 15px auto 10px auto;
+}
+
+.pt-picture {
+    background-image: url(/assets/images/pt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: #EDEDED 5px solid;
+    border-radius: 95px;
+    height: 190px;
+    width: 190px;
+
+    margin: 5px auto 10px auto;
+}
+
+.band-member-names {
+    color: #EDEDED;
+    font-family: "Niramit", sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+
+
+    margin: 0 auto 5px auto;
+}
+
+.band-member-names-2 {
+    color: #343A40;
+    font-family: "Niramit", sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+
+
+    margin: 0 auto 5px auto;
+}
+
+.band-member-bio {
+    color: #EDEDED;
+    font-family: "Niramit", sans-serif;
+    text-align: center;
+    width: 75%;
+
+    border-bottom: #EDEDED 3px solid;
+
+    margin: 5px auto 50px auto;
+
+}
+
+.band-member-bio-2 {
+    color: #343A40;
+    font-family: "Niramit", sans-serif;
+    text-align: center;
+    width: 75%;
+
+    border-bottom: #343A40 3px solid;
+
+    margin: 5px auto 50px auto;
+
+}
+
+/*----------------------Media----------------------*/
+
+.media-heading-box {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+.media-heading {
+    text-align: center;
+    color: #EDEDED;
+    font-family: "Lobster", sans-serif;
+    font-size: 42px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+.media-video-heading {
+    text-align: center;
+    color: #343A40;
+    font-family: "Niramit", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5 auto 0 auto;
+    padding-top: 12px;
+
+
+    width: 100%;
+    height: 50px;
+    background-color: #CE981F;
+}
+
+.video-box {
+    background-color: #343A40;
+    display: inline-block;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.video-box video {
+    margin: 0 auto 20px auto;
+    border: #EDEDED 5px solid;
+}
+
+.media-song-heading {
+    text-align: center;
+    color: #343A40;
+    font-family: "Niramit", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5 auto 0 auto;
+    padding-top: 12px;
+
+
+    width: 100%;
+    height: 50px;
+    background-color: #CE981F;
+}
+
+.song-box {
+    background-color: #343A40;
+    display: inline-block;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.song-clip-box {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #282B30;
+}
+
+.song-clip-box-2 {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #22262B;
+
+}
+
+
+.song-clip {
+    ;
+    width: 90%;
+    padding: 2px;
+}
+
+.track-name {
+    color: #CE981F;
+    font-family: "Niramit", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
+
+.media-picture-heading {
+    text-align: center;
+    color: #343A40;
+    font-family: "Niramit", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5 auto 0 auto;
+    padding-top: 12px;
+
+
+    width: 100%;
+    height: 50px;
+    background-color: #CE981F;
+}
+
+.picture-box {
+    display: inline-block;
+    background-color: #343A40;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.monkees-image-1 {
+    background-image: url("/assets/images/The-Monkees-courtesy-Rhino-Entertainment.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.monkees-image-2 {
+    background-image: url("/assets/images/monkees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.monkees-image-3 {
+    background-image: url("/assets/images/156017725.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.monkees-image-4 {
+    background-image: url("/assets/images/oldmonkees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+/*----------------------Contact Us----------------------*/
+
+.contact-heading-box {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+.contact-heading {
+    text-align: center;
+    color: #EDEDED;
+    font-family: "Lobster", sans-serif;
+    font-size: 42px;
+    margin: 0 auto 0px auto;
+    padding: 0;
+}
+
+.entire-contact-box {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-box {
+    background-color: #252B31;
+    height: 1000px;
+    
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+.business-contact-box {
+    background-color: #CE981F;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    
+    
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.business-contact-box h3 {
+    color: #252B31;
+    font-family: "Niramit";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.business-contact-box p {
+    color: #252B31;
+    margin: 0;
+}
+
+.fan-contact-box {
+    background-color: #CE981F;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    
+    
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.fan-contact-box h3 {
+    color: #252B31;
+    font-family: "Niramit";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.fan-contact-box p {
+    color: #252B31;
+}
+
+
+/*----------------------Footer----------------------*/
 
 .footer {
-
-    position: absolute;
     width: 100%;
-    background-color: #343A40;
+    height: 100px;
+    background-color: #24292E;
     text-align: center;
-    border-top: #656565 1px solid;
-    padding: 10px 0 0 0;
-    margin:0;
+    padding: 20px 0 0 0;
+    margin: 5px 0 0 0;
 }
 
 
@@ -197,8 +519,36 @@ body {
     color: #CE981F;
 }
 
+
+/*----------------------Media Queries----------------------*/
+
 @media (min-width: 576px) {
     .monkees-banner-logo {
         background-image: url(/assets/images/the-monkees-logo.png);
     }
+
+
+    .video-box {
+        background-color: #343A40;
+        height: auto;
+        width: 100%;
+    }
+
+    .song-box {
+        background-color: #343A40;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 990px) {
+    .xmas-album-text {
+        border-left: none;
+    }
+    
+    .vertical {
+    border-left: #252B31 2px solid;
+    height: 900px;
+    margin-top: 50px;
+}
 }
