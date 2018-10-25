@@ -75,46 +75,43 @@ In the footer there's 3 social media links where they divert the user to their s
 
 5. Responsive Design:
     1. Used the deloper tools to check if my webpage was responsive on different devices which included:
-        1. 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+        1. Galaxy S9/s9+
+        2. iPad
+        3. iPhone 6/7/8/X
+        4. Kindle Fire
+    2. Checked that the webpage banner changed to a logo when it reached a certain size.
+    3. Checked that then the navigation reached a certain size then it would change to the burger Icon.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This has been deployed to gitHUB.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the Christmas Album text was taken from the monkees page at https://www.monkees.com/article/the-monkees-to-release-christmas-party-their-first-ever-holiday-album
+
+- On The Band page each of the text for the band members were taken from 1 website:
+    1. DJ - https://www.biography.com/people/davy-jones-377858
+    2. MD - https://www.biography.com/people/micky-dolenz-16730294
+    3. MN - https://www.biography.com/people/michael-nesmith-20757957
+    4. PT - https://www.biography.com/people/peter-tork-20758183
+
 
 ### Media
-- The photos used in this site were obtained from ...
+- Banner:
+   1. background - http://www.aljanh.net/retro-wallpapers/1592487060.html
+   2. desktop logo - Taken from the main website in the top left corner. https://www.monkees.com/ecard/valentine/
+   3. mobile logo - Taken from their website again https://www.monkees.com/
 
+- Christmas album cover was taken from their website https://www.monkees.com/
+
+- media pictures:
+    1. https://www.bbc.co.uk/music/artists/b8549efe-f4fd-4dc0-8ef1-226e9c400233
+    2. https://www.monkees.net/the-monkees-2404-25042015-rama-ontario-canada/
+    3. http://ultimateclassicrock.com/more-of-the-monkees/
+
+- Any pictures I haven't listed were given to me by the course at - https://github.com/Code-Institute-Org/project-assets
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- The navigation bar was taken from bootstap using: https://getbootstrap.com/docs/4.0/components/navbar/
