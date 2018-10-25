@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-------------------navigation----------------->
+    <!-------------------bootstap navigation----------------->
     <div class="container-fluid navbar-bg">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -49,7 +49,7 @@
 
 
     <section>
-        <div class="container-fluid">
+        <div class="page container-fluid">
             <div class="contact-heading-box">
                 <h1 class="contact-heading">Contact Us</h1>
             </div>
@@ -60,16 +60,56 @@
             <div class="row">
                 <div class="col-sm-12 col-md-5 contact-box">
                     <div class="business-contact-box">
-                        <h3>Business</h3>
+                        <h3>Business Contact</h3>
                         <p>This contact form is for business purposes only.</p>
                     </div>
+
+                    <form action="@" method="post" autocomplete>
+                        <label for="fname" class="business-section-header container-fluid">Name</label><br>
+                        <input type="text" id="fname" placeholder="First Name" name="name" required>
+                        
+                        <input type="text" id="sname" placeholder="Second Name" name="name" required><br>
+                        
+                        <label for="fname" class="business-section-header container-fluide">Email</label><br>
+                        <input type="email" id="email" placeholder="Email" name="email" required><br>
+                        
+                        <input type="radio" name="reason" value="wedding"> <span class="event">Wedding</span>
+                        <input type="radio" name="reason" value="party"> <span class="event">Party</span>
+                        <input type="radio" name="reason" value="general"> <span class="event">General</span>
+                        <input type="radio" name="reason" value="other"> <span class="event">Other</span><br>
+                        <textarea name="message" id="business-textarea" placeholder="Please give us more information.."></textarea><br>
+                        
+                        
+                        
+                        <input type="submit" value="Send">
+                    </form>
                 </div>
-                
+
                 <div class="col-sm-12 col-md-5 contact-box">
                     <div class="fan-contact-box">
-                        <h3>General Contact</h3>
-                        <p>send us pictures/mail</p>
+                        <h3>Fan Contact</h3>
+                        <p>Dedicated to our fans</p>
                     </div>
+                    
+                    <form action="@" method="post" autocomplete>
+                        <label for="fname" class="business-section-header container-fluid">Name</label><br>
+                        <input type="text" id="fname" placeholder="First Name" name="name">
+                        
+                        <input type="text" id="sname" placeholder="Second Name" name="name" required><br>
+                        
+                        <label for="email" class="business-section-header container-fluid required">Email</label><br>
+                        <input type="email" id="email" placeholder="Email" name="email" required><br>
+                        
+
+                        <input type="file" name="file" id="file"/><br>
+                        
+                        
+                        <textarea name="message" id="business-textarea" ></textarea><br>
+                        
+                        
+                        
+                        <input type="submit" value="Send">
+                    </form>
                 </div>
 
             </div>
