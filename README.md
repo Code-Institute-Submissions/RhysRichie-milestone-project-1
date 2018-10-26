@@ -13,12 +13,6 @@ On my website I have 4 main web pages home, the band, media, and contact. My aim
 * employer - A way to get in contact with them for business
 * employer - Browse their songs in their library
 
-##### Wireframes
-
-![GitHub Logo](/assets/images/markdown/homepagewire.jpg)
-![GitHub Logo](/images/logo.png)
-![GitHub Logo](/images/logo.png)
-
 ## Features
 
 ##### Navigation
