@@ -15,9 +15,7 @@ On my website I have 4 main web pages home, the band, media, and contact. My aim
 
 ##### Wireframes
 
-![GitHub Logo](/assets/images/markdown/homepagewire.jpg)
-![GitHub Logo](/images/logo.png)
-![GitHub Logo](/images/logo.png)
+https://imgur.com/a/66qOFHz
 
 ## Features
 
@@ -90,8 +88,9 @@ In the footer there's 3 social media links where they divert the user to their s
     3. Checked that then the navigation reached a certain size then it would change to the burger Icon.
 
 ## Deployment
-
-This has been deployed to gitHUB. https://github.com/RhysRichie/First-Milestone-Project
+1. Firstly I created a repository on GitHUB So I could link it with my project on cloud9.
+2. Whenever I finished a page I would use "git add ." to add all the files and use "git commit -m "__" to 
+https://github.com/RhysRichie/First-Milestone-Project
 
 ## Credits
 

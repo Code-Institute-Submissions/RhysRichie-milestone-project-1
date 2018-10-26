@@ -56,7 +56,7 @@ section {
     min-height: 200px;
     background-image: url(/assets/images/retro-wallpaper-1.jpg);
     background-repeat: no-repeat;
-    background-size: 208px contain;
+    background-size: cover;
     background-position: center;
     margin: 0;
     padding: 20px 0 0 0;
@@ -277,14 +277,14 @@ section {
     padding: 0;
 }
 
-.media-video-heading {
+.media-sub-heading {
     text-align: center;
     color: #343A40;
     font-family: "Niramit", sans-serif;
     font-size: 22px;
     font-weight: bolder;
     text-transform: uppercase;
-    margin: 5 auto 0 auto;
+    margin: 5px auto 10px auto;
     padding-top: 12px;
 
 
@@ -308,24 +308,6 @@ section {
     border: #EDEDED 5px solid;
     box-shadow: #000000 3px 3px 5px;
 }
-
-.media-song-heading {
-    text-align: center;
-    color: #343A40;
-    font-family: "Niramit", sans-serif;
-    font-size: 22px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 5 auto 0 auto;
-    padding-top: 12px;
-
-
-    width: 100%;
-    height: 50px;
-    background-color: #CE981F;
-    box-shadow: #000000 3px 3px 5px;
-}
-
 .song-box {
     background-color: #343A40;
     display: inline-block;
@@ -365,24 +347,6 @@ section {
     font-size: 20px;
     text-transform: uppercase;
     padding-top: 7px;
-}
-
-
-.media-picture-heading {
-    text-align: center;
-    color: #343A40;
-    font-family: "Niramit", sans-serif;
-    font-size: 22px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 5 auto 0 auto;
-    padding-top: 12px;
-
-
-    width: 100%;
-    height: 50px;
-    background-color: #CE981F;
-    box-shadow: #000000 3px 3px 5px;
 }
 
 .picture-box {
@@ -516,16 +480,16 @@ section {
     color: #252B31;
 }
 
-.business-section-header {
+.form-section-header {
     text-align: center;
     margin: 0 auto 0 auto;
 }
 
-.business-section-header i {
+.form-section-header i {
     font-size: 10px;
 }
 
-#fname {
+#fnameb {
     width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
@@ -536,7 +500,7 @@ section {
     margin: 10px auto 5px auto;
 }
 
-#sname {
+#snameb{
     width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
@@ -547,7 +511,7 @@ section {
     margin: 2px auto 20px auto;
 }
 
-#email {
+#emailb {
     width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
@@ -575,6 +539,46 @@ section {
     width: 80%;
     font-size: 14px;
     background-color: #1A1E26;
+}
+
+#fnamef {
+    width: 70%;
+    height: 50px;
+    font-family: "Niramit", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+    margin: 10px auto 5px auto;
+}
+
+#snamef {
+    width: 70%;
+    height: 50px;
+    font-family: "Niramit", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+    margin: 2px auto 20px auto;
+}
+
+#emailf {
+    width: 70%;
+    height: 50px;
+    font-family: "Niramit", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+    margin: 0 auto 20px auto;
+}
+
+#fan-textarea {
+    width: 70%;
+    height: 200px;
+    
+    margin: 25px auto 10px auto;
 }
 
 /*----------------------Footer----------------------*/
