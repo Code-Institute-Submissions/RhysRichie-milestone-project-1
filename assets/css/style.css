@@ -3,13 +3,14 @@
 
 /*----------------------main page----------------------*/
 
-html,body {
+html,
+body {
     background-color: #343A40;
     width: 100%;
     height: 100%;
     margin: 0 auto;
     padding: 0;
-    
+
     font-family: "Niramit", sans-serif;
     color: #EDEDED;
 }
@@ -54,7 +55,7 @@ section {
     text-align: center;
     width: 100%;
     min-height: 200px;
-    background-image: url(/assets/images/retro-wallpaper-1.jpg);
+    background-image: url(images/retro-wallpaper-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,7 +65,7 @@ section {
 }
 
 .monkees-banner-logo {
-    background-image: url(/assets/images/monkeeslogo.png);
+    background-image: url(images/monkeeslogo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -97,11 +98,11 @@ section {
     width: 100%;
     height: auto;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 .xmas-album {
-    background-image: url(/assets/images/monkeesxmas.jpg);
+    background-image: url(images/monkeesxmas.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -132,6 +133,7 @@ section {
     padding: 0;
     margin: 0;
 }
+
 .xmas-album-text ol li {
     list-style-type: none;
     text-align: center;
@@ -166,7 +168,7 @@ section {
 }
 
 .dj-picture {
-    background-image: url(/assets/images/dj.jpg);
+    background-image: url(images/dj.jpg);
     background-repeat: no-repeat;
     background-position: right;
     border: #CE981F 5px solid;
@@ -178,7 +180,7 @@ section {
 }
 
 .md-picture {
-    background-image: url(/assets/images/md.jpg);
+    background-image: url(images/md.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border: #CE981F 5px solid;
@@ -190,7 +192,7 @@ section {
 }
 
 .mn-picture {
-    background-image: url(/assets/images/mn.jpg);
+    background-image: url(images/mn.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border: #CE981F 5px solid;
@@ -202,7 +204,7 @@ section {
 }
 
 .pt-picture {
-    background-image: url(/assets/images/pt.jpg);
+    background-image: url(images/pt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border: #CE981F 5px solid;
@@ -264,7 +266,7 @@ section {
     margin: 0 0 10px 0;
     padding: 5px;
     background-color: #252B31;
-    
+
 }
 
 .media-heading {
@@ -272,7 +274,7 @@ section {
     color: #EDEDED;
     font-family: "Lobster", sans-serif;
     font-size: 42px;
-    
+
     margin: 0 auto 0 auto;
     padding: 0;
 }
@@ -298,7 +300,7 @@ section {
     background-color: #343A40;
     display: inline-block;
     height: 300px;
-    
+
     margin: 0;
     padding: 0;
 }
@@ -308,11 +310,12 @@ section {
     border: #EDEDED 5px solid;
     box-shadow: #000000 3px 3px 5px;
 }
+
 .song-box {
     background-color: #343A40;
     display: inline-block;
     height: auto;
-    
+
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -358,7 +361,7 @@ section {
 }
 
 .monkees-image-1 {
-    background-image: url("/assets/images/The-Monkees-courtesy-Rhino-Entertainment.jpg");
+    background-image: url("images/The-Monkees-courtesy-Rhino-Entertainment.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -368,7 +371,7 @@ section {
 }
 
 .monkees-image-2 {
-    background-image: url("/assets/images/monkees.jpg");
+    background-image: url("images/monkees.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -378,7 +381,7 @@ section {
 }
 
 .monkees-image-3 {
-    background-image: url("/assets/images/156017725.jpg");
+    background-image: url("images/156017725.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -388,7 +391,7 @@ section {
 }
 
 .monkees-image-4 {
-    background-image: url("/assets/images/oldmonkees.jpg");
+    background-image: url("images/oldmonkees.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -398,15 +401,17 @@ section {
 }
 
 /*----------------------Contact Us----------------------*/
+
 .page {
     margin: 0;
     padding: 0;
 }
+
 .contact-heading-box {
     width: 100%;
     margin: 0 0 20px 0;
     padding: 5px;
-    
+
     background-color: #252B31;
 }
 
@@ -430,7 +435,7 @@ section {
     font-size: 18px;
     text-align: center;
     box-shadow: #000000 3px 3px 5px;
-    
+
     margin: 0 auto 20px auto;
     padding: 0 0 0 0;
 }
@@ -440,8 +445,8 @@ section {
     width: 100%;
     min-height: 100px;
     text-align: center;
-    
-    
+
+
     margin: 0 0 20px 0;
     padding: 10px 0 0 0;
 }
@@ -463,8 +468,8 @@ section {
     width: 100%;
     min-height: 100px;
     text-align: center;
-    
-    
+
+
     margin: 0 0 20px 0;
     padding: 10px 0 0 0;
 }
@@ -496,18 +501,18 @@ section {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 10px auto 5px auto;
 }
 
-#snameb{
+#snameb {
     width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 2px auto 20px auto;
 }
 
@@ -518,7 +523,7 @@ section {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 0 auto 20px auto;
 }
 
@@ -530,7 +535,7 @@ section {
 #business-textarea {
     width: 70%;
     height: 200px;
-    
+
     margin: 25px auto 10px auto;
 }
 
@@ -548,7 +553,7 @@ section {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 10px auto 5px auto;
 }
 
@@ -559,7 +564,7 @@ section {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 2px auto 20px auto;
 }
 
@@ -570,14 +575,14 @@ section {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    
+
     margin: 0 auto 20px auto;
 }
 
 #fan-textarea {
     width: 70%;
     height: 200px;
-    
+
     margin: 25px auto 10px auto;
 }
 
@@ -627,7 +632,7 @@ section {
 
 @media (min-width: 576px) {
     .monkees-banner-logo {
-        background-image: url(/assets/images/the-monkees-logo.png);
+        background-image: url(images/the-monkees-logo.png);
     }
 
 
@@ -648,10 +653,10 @@ section {
     .xmas-album-text {
         border-left: none;
     }
-    
+
     .vertical {
-    border-left: #252B31 2px solid;
-    height: 900px;
-    margin-top: 50px;
-}
+        border-left: #252B31 2px solid;
+        height: 900px;
+        margin-top: 50px;
+    }
 }

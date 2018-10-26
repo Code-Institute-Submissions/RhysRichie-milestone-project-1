@@ -13,13 +13,10 @@ On my website I have 4 main web pages home, the band, media, and contact. My aim
 * employer - A way to get in contact with them for business
 * employer - Browse their songs in their library
 
-<<<<<<< HEAD
 ##### Wireframes
 
 https://imgur.com/a/66qOFHz
 
-=======
->>>>>>> 844c0ff1de717f2de5cc9b1ba6f7d6aa9da347c5
 ## Features
 
 ##### Navigation
