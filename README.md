@@ -88,9 +88,10 @@ In the footer there's 3 social media links where they divert the user to their s
     3. Checked that then the navigation reached a certain size then it would change to the burger Icon.
 
 ## Deployment
-1. Firstly I created a repository on GitHUB So I could link it with my project on cloud9.
-2. Whenever I finished a page I would use "git add ." to add all the files and use "git commit -m "__" to 
-https://github.com/RhysRichie/First-Milestone-Project
+Firstly I created a repository on GitHUB and linked my project with on cloud9 to GitHUB. My first actions were to commit and push content at stages that I deemed to be the best time to commit (mainly whenever I finished a webpage). I went into the settings tab on GitHub and scrolled down to the GitHUB pages section and selected the Master Branch. I ran into an error with GitHUB when I used the copy file path in cloud9 to get the file location for a media file, when It came to deplying it on GitHUB that file path wouldn't work so I had to do some testing to fix the issue.
+
+https://rhysrichie.github.io/milestone-project-1/index.html
+https://github.com/RhysRichie/milestone-project-1
 
 ## Credits
 
