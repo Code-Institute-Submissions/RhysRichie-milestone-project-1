@@ -64,7 +64,7 @@
                         <p>This contact form is for business purposes only.</p>
                     </div>
 
-                    <form action="@" method="post" autocomplete>
+                    <form action="" method="post" autocomplete>
                         <label for="fname" class="business-section-header container-fluid">Name</label><br>
                         <input type="text" id="fname" placeholder="First Name" name="name" required>
                         
@@ -72,13 +72,13 @@
                         
                         <label for="fname" class="business-section-header container-fluide">Email</label><br>
                         <input type="email" id="email" placeholder="Email" name="email" required><br>
-                        
+                        <form-group required>
                         <input type="radio" name="reason" value="wedding"> <span class="event">Wedding</span>
-                        <input type="radio" name="reason" value="party"> <span class="event">Party</span>
+                        <input type="radio" name="reason" value="party"> <span class="event">Christmas</span>
                         <input type="radio" name="reason" value="general"> <span class="event">General</span>
                         <input type="radio" name="reason" value="other"> <span class="event">Other</span><br>
-                        <textarea name="message" id="business-textarea" placeholder="Please give us more information.."></textarea><br>
-                        
+                        </form-group>
+                        <textarea name="message" id="business-textarea" placeholder="Please give us more information.." required></textarea><br>
                         
                         
                         <input type="submit" value="Send">
@@ -91,7 +91,7 @@
                         <p>Dedicated to our fans</p>
                     </div>
                     
-                    <form action="@" method="post" autocomplete>
+                    <form action="" method="post" autocomplete>
                         <label for="fname" class="business-section-header container-fluid">Name</label><br>
                         <input type="text" id="fname" placeholder="First Name" name="name">
                         
@@ -100,11 +100,11 @@
                         <label for="email" class="business-section-header container-fluid required">Email</label><br>
                         <input type="email" id="email" placeholder="Email" name="email" required><br>
                         
-
+                        <label for="file" class="business-section-header container-fluid">Fan pictures <i>Not Required</i></label><br>
                         <input type="file" name="file" id="file"/><br>
                         
                         
-                        <textarea name="message" id="business-textarea" ></textarea><br>
+                        <textarea name="message" id="business-textarea" required></textarea><br>
                         
                         
                         

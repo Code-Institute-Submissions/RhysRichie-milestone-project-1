@@ -115,6 +115,7 @@ section {
 .xmas-album-text {
     text-align: justify;
     font-family: "Niramit", sans-serif;
+    font-weight: bold;
     color: #444341;
     padding: 10px 30px 10px 30px;
     border-right: #343A40 10px solid;
@@ -127,8 +128,15 @@ section {
     font-weight: 700;
 }
 
+.xmas-album-text ol {
+    padding: 0;
+    margin: 0;
+}
 .xmas-album-text ol li {
+    list-style-type: none;
     text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
 }
 
 /*----------------------The Band Page----------------------*/
@@ -206,7 +214,7 @@ section {
 }
 
 .band-member-names {
-    color: #CE981F;
+    color: #EDEDED;
     font-family: "Niramit", sans-serif;
     font-weight: bolder;
     text-decoration: underline;
@@ -216,7 +224,7 @@ section {
 }
 
 .band-member-names-2 {
-    color: #CE981F;
+    color: #252B31;
     font-family: "Niramit", sans-serif;
     font-weight: bolder;
     text-decoration: underline;
@@ -454,7 +462,7 @@ section {
 
 .contact-box {
     background-color: #252B31;
-    height: 700px;
+    height: 750px;
     font-size: 18px;
     text-align: center;
     box-shadow: #000000 3px 3px 5px;
@@ -513,8 +521,12 @@ section {
     margin: 0 auto 0 auto;
 }
 
+.business-section-header i {
+    font-size: 10px;
+}
+
 #fname {
-    width: 50%;
+    width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
     font-size: 20px;
@@ -525,7 +537,7 @@ section {
 }
 
 #sname {
-    width: 50%;
+    width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
     font-size: 20px;
@@ -536,7 +548,7 @@ section {
 }
 
 #email {
-    width: 50%;
+    width: 70%;
     height: 50px;
     font-family: "Niramit", sans-serif;
     font-size: 20px;
@@ -560,7 +572,7 @@ section {
 
 #file {
     text-align: center;
-    width: 50%;
+    width: 80%;
     font-size: 14px;
     background-color: #1A1E26;
 }

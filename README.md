@@ -44,7 +44,8 @@ In the footer there's 3 social media links where they divert the user to their s
 
 * HTML 5
 * CSS3
-* Bootstrap
+* Bootstrap v4.1.3
+* fontawesome v5.4.1
 * Javascript, used for navigation purposes only
 
 
@@ -84,7 +85,7 @@ In the footer there's 3 social media links where they divert the user to their s
 
 ## Deployment
 
-This has been deployed to gitHUB.
+This has been deployed to gitHUB. https://github.com/RhysRichie/First-Milestone-Project
 
 ## Credits
 
